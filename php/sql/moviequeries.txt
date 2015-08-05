@@ -1,0 +1,2 @@
+SELECT Title FROM Movie WHERE Status = 'Recalled';
+SELECT Studio, Title, Price FROM Movie WHERE Price > '1000';

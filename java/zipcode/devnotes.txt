@@ -1,0 +1,17 @@
+devnotes.txt
+
+Notes from Ass #9
+#########################################################
+This program is like the first ZIPcode program, with two additions: It reads from a database (like the molarmass assignment) and populates an array, and it has to find all ZIP codes within a maximum distance specified as an argument by the user.
+
+1. Load info from URL like so:
+URL url = new URL("whateverurl");
+URLConnection conn = url.openConnection();
+Scanner zipScanner = new Scanner(conn.getInputStream());
+
+2. two cmd line arguments:
+  a. ZIP code
+  b. max distance in km
+
+3. Prints info on the ZIPs along w/ each distance.
+  a. Format exactly like the demo.
